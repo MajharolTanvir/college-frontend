@@ -7,6 +7,10 @@
     white-space: nowrap;
     animation: scroll 10s linear infinite;
     padding: 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 @keyframes scroll {

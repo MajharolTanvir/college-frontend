@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ScrollingText.module.css";
+import { BsCircleFill } from "react-icons/bs";
 
 const ScrollingText = () => {
   return (
@@ -10,7 +11,8 @@ const ScrollingText = () => {
         </h1>
         <div className={styles.scrollContainer}>
           <div className={styles.scrollText}>
-            This is your scrolling text. You can replace it with your content.
+            <BsCircleFill className="text-[#262582]" />
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, officia!</p>
           </div>
         </div>
       </div>
