@@ -1,9 +1,11 @@
+import Image from "next/image";
+import Link from "next/link";
 import { BiSolidUser } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <div className="shadow">
-      <div className="navbar container mx-auto  bg-base-100">
+    <div className="shadow bg-[#262582] text-white">
+      <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -77,62 +79,98 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <Link href="/" className="overflow-hidden">
+            <Image
+              src="/rangamati_public_collage.jpg"
+              alt="Rangamati public collage logo"
+              className="object-cover bg-transparent"
+              height={60}
+              width={60}
+            />
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Home</a>
+            <li className="hover:bg-none">
+              <a className="active:text-green-600 hover:text-green-500 ">
+                Home
+              </a>
             </li>
-            <li tabIndex={0}>
+            <li tabIndex={0} className="hover:bg-none">
               <details>
-                <summary>About us</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>College history</a>
+                <summary className="active:text-green-600 hover:text-green-500">
+                  About us
+                </summary>
+                <ul className="p-2 z-20 w-48 text-black">
+                  <li className="hover:bg-none">
+                    <a className="hover:text-green-600 hover:bg-white">
+                      College history
+                    </a>
                   </li>
-                  <li>
-                    <a>Principle</a>
+                  <li className="hover:bg-none">
+                    <a className="hover:text-green-600 hover:bg-white">
+                      Principle
+                    </a>
                   </li>
-                  <li>
-                    <a>Vice principle</a>
+                  <li className="hover:bg-none">
+                    <a className="hover:text-green-600 hover:bg-white">
+                      Vice principle
+                    </a>
                   </li>
-                  <li>
-                    <a>Administration</a>
+                  <li className="hover:bg-none">
+                    <a className="hover:text-green-600 hover:bg-white">
+                      Administration
+                    </a>
                   </li>
                 </ul>
               </details>
             </li>
-            <li>
-              <a>Departments</a>
+            <li className="hover:bg-none">
+              <a className="active:text-green-600 hover:text-green-500 ">
+                Departments
+              </a>
             </li>
-            <li>
-              <a>Gallery</a>
+            <li className="hover:bg-none">
+              <a className="active:text-green-600 hover:text-green-500 ">
+                Gallery
+              </a>
             </li>
-            <li tabIndex={0}>
+            <li className="hover:bg-none" tabIndex={0}>
               <details>
-                <summary>News & Events</summary>
-                <ul className="p-2">
+                <summary className="active:text-green-600 hover:text-green-500 ">
+                  News & Events
+                </summary>
+                <ul className="p-2 text-black w-48 z-20">
                   <li>
-                    <a>Notice</a>
+                    <a className="hover:text-green-600 hover:bg-white">
+                      Notice
+                    </a>
                   </li>
                   <li>
-                    <a>News</a>
+                    <a className="hover:text-green-600 hover:bg-white">News</a>
                   </li>
                   <li>
-                    <a>Events</a>
+                    <a className="hover:text-green-600 hover:bg-white">
+                      Events
+                    </a>
                   </li>
                   <li>
-                    <a>Class Routine</a>
+                    <a className="hover:text-green-600 hover:bg-white">
+                      Class Routine
+                    </a>
                   </li>
                   <li>
-                    <a>Board result check</a>
+                    <a className="hover:text-green-600 hover:bg-white">
+                      Board result check
+                    </a>
                   </li>
                 </ul>
               </details>
             </li>
-            <li>
-              <a>Contact</a>
+            <li className="focus:bg-none selection:bg-none">
+              <a className="active:text-green-600 hover:text-green-500 ">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
@@ -140,27 +178,30 @@ const Navbar = () => {
           <div className="dropdown dropdown-end">
             <label
               tabIndex={0}
-              className="btn btn-ghost btn-circle flex justify-center items-center avatar"
+              className="btn btn-ghost btn-circle flex justify-center items-center avatar rounded-full bg-white hover:bg-[#262582] hover:border hover:border-white"
             >
               <div className="">
-                <BiSolidUser className="text-3xl" />
+                <BiSolidUser className="text-3xl text-[#262582] hover:text-white" />
               </div>
             </label>
             <ul
               tabIndex={0}
-              className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+              className="mt-3 z-20 bg-white p-2 shadow menu menu-sm dropdown-content rounded-box w-52"
             >
               <li>
-                <a className="justify-between">
+                <a className="hover:text-green-600 hover:bg-white text-black">
                   Profile
-                  <span className="badge">New</span>
                 </a>
               </li>
               <li>
-                <a>Settings</a>
+                <a className="hover:text-green-600 hover:bg-white text-black">
+                  Settings
+                </a>
               </li>
               <li>
-                <a>Logout</a>
+                <a className="hover:text-green-600 hover:bg-white  text-black">
+                  Logout
+                </a>
               </li>
             </ul>
           </div>
