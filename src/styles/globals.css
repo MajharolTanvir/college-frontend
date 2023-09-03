@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+      width: 4px;
+      height: 10px;
+    }
+    
+    /* Change the color of the scrollbar thumb (the draggable part) */
+    ::-webkit-scrollbar-thumb {
+      background-color: #262582;
+    }
+    
+    /* Change the color of the scrollbar track (the background) */
+    ::-webkit-scrollbar-track {
+      background-color: #fff;
+    }
