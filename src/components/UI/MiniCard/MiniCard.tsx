@@ -7,9 +7,9 @@ import { FaUniversity, FaUserGraduate, FaUserTie } from "react-icons/fa";
 
 const MiniCard = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto my-16">
       <div className="grid grid-cols-4 gap-5">
-        <div className="bg-[#262582] py-3 text-white shadow-sm rounded-xl">
+        <div className="bg-[#262582] py-8 text-white shadow-sm rounded-xl">
           <div className="flex justify-center items-center gap-3 ">
             <FaUniversity className="text-6xl" />
             <div className="text-xl">
@@ -20,7 +20,7 @@ const MiniCard = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#262582] py-3 text-white shadow-sm  rounded-xl">
+        <div className="bg-[#262582] py-8 text-white shadow-sm  rounded-xl">
           <div className="flex justify-center items-center gap-3  rounded-xl">
             <FaUserTie className="text-6xl" />
             <div className="text-xl">
@@ -32,7 +32,7 @@ const MiniCard = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#262582] py-3 text-white rounded-xl">
+        <div className="bg-[#262582] py-8 text-white rounded-xl">
           <div className="flex justify-center items-center gap-3 ">
             <FaBookOpen className="text-6xl" />
             <div className="text-xl">
@@ -44,7 +44,7 @@ const MiniCard = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#262582] py-3 text-white rounded-xl">
+        <div className="bg-[#262582] py-8 text-white rounded-xl">
           <div className="flex justify-center items-center gap-3 ">
             <FaUserGraduate className="text-6xl" />
             <div className="text-xl">
