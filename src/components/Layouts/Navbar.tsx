@@ -70,7 +70,13 @@ const Navbar = () => {
                     <a>Class Routine</a>
                   </li>
                   <li>
-                    <a>Board result check</a>
+                    <Link
+                      target="blank"
+                      className="hover:text-green-600 hover:bg-white"
+                      href="http://www.educationboardresults.gov.bd/"
+                    >
+                      Board result check
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -160,9 +166,13 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a className="hover:text-green-600 hover:bg-white">
+                    <Link
+                      className="hover:text-green-600 hover:bg-white"
+                      target="blank"
+                      href="http://www.educationboardresults.gov.bd/"
+                    >
                       Board result check
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </details>
