@@ -5,6 +5,7 @@ import { ReactElement } from "react";
 const Home = () => {
   return (
     <div>
+      <h1 className="text-7xl">hello tanvir vai</h1>
       <ScrollingText />
     </div>
   );
@@ -13,9 +14,5 @@ const Home = () => {
 export default Home;
 
 Home.getLayout = function getLayout(page: ReactElement) {
-  return (
-    <RootLayouts>
-      {page}
-    </RootLayouts>
-  );
+  return <RootLayouts>{page}</RootLayouts>;
 };
