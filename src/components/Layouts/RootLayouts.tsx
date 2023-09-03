@@ -5,7 +5,7 @@ const RootLayouts = ({ children }: { children: ReactNode }) => {
   return (
     <div>
       <Navbar />
-      {children}
+      <div className="min-h-screen">{children}</div>
     </div>
   );
 };

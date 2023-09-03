@@ -1,10 +1,11 @@
 import RootLayouts from "@/components/Layouts/RootLayouts";
+import ScrollingText from "@/components/UI/Scrolling/ScrollingText";
 import { ReactElement } from "react";
 
 const Home = () => {
   return (
     <div>
-      
+      <ScrollingText />
     </div>
   );
 };
