@@ -12,7 +12,7 @@ const ScrollingText = () => {
         <div className={styles.scrollContainer}>
           <div className={styles.scrollText}>
             <BsCircleFill className="text-[#262582]" />
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, officia!</p>
+            <p>তানভীর ভাই যেখানে আমরা আছি সেখানে। জয় বাংলা</p>
           </div>
         </div>
       </div>
