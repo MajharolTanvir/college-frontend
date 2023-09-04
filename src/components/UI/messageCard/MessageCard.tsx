@@ -1,40 +1,58 @@
-import Image from "next/image";
 import React from "react";
 
 const MessageCard = () => {
   return (
-    <section className="container mx-auto flex justify-evenly">
-      <div>
-        <div className="card w-full bg-base-100 shadow-xl grid grid-cols-2 gap-x-5">
-          <div className="pl-10 pt-10">
+    <section className="container mx-auto flex justify-evenly mt-10">
+      <div className="lg:flex gap-5 md:mx-0">
+        <div className="card md:card-side bg-base-100 shadow-xl mb-5 mx-5">
+          <figure>
             <Image
+              className="w-96 h-full"
+              width={500}
+              height={520}
               src="/principal.jpg"
-              alt="Shoes"
-              className="rounded-xl"
-              width={200}
-              height={200}
+              alt="Album"
             />
-          </div>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title">Message of the Principal</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </figure>
+          <div className="card-body w-96">
+            <h2 className="card-title">Title</h2>
+            <p className="text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              harum officiis. Minima architecto modi iste cumque, sed, explicabo
+              dolorum fugit dicta illum nobis quisquam, quibusdam perferendis
+              blanditiis neque et eaque non eius excepturi eos odio corrupti
+              esse. Enim consequuntur dolore harum iure officia et, sunt,
+              quibusdam praesentium numquam unde repudiandae!
+            </p>
+            <div className="card-actions justify-start">
+              <Link href="">Read more</Link>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div className="card w-fit bg-base-100 shadow-xl grid grid-cols-2">
-          <div className="pl-10 pt-10">
+        <div className="card md:card-side bg-base-100 shadow-xl mb-5 mx-5">
+          <figure>
             <Image
+              className="w-96 h-full"
+              width={500}
+              height={520}
               src="/vice-principal.jpg"
-              alt="Shoes"
-              className="rounded-xl"
-              width={200}
-              height={200}
+              alt="Album"
             />
-          </div>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title">Message of the Vice-Principal</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </figure>
+          <div className="card-body w-96">
+            <h2 className="card-title">Title</h2>
+            <p className="text-justify">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              ducimus corrupti nam itaque saepe officia magni quae ut,
+              aspernatur quibusdam asperiores incidunt commodi laudantium,
+              quidem delectus nisi at vel reprehenderit cum distinctio nemo
+              repudiandae beatae? Eligendi et fugiat impedit fuga magnam
+              delectus, ea autem, temporibus, nobis officiis aspernatur dicta
+              omnis.
+            </p>
+            <div className="card-actions justify-start">
+              <Link href="">Read more</Link>
+            </div>
           </div>
         </div>
       </div>
