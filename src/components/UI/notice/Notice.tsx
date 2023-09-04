@@ -1,8 +1,12 @@
 import React from "react";
 
 const Notice = () => {
-  // notice array
+  // notice arraysssssssssssssssssssssssssssssssssssssssssssssssssssssss
   const notices = [
+    {
+      date: "12 jun 2023",
+      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ducimus nostrum minima sit officia.",
+    },
     {
       date: "12 jun 2023",
       text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ducimus nostrum minima sit officia.",

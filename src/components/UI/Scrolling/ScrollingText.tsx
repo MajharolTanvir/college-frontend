@@ -3,6 +3,7 @@ import styles from "./ScrollingText.module.css";
 import { BsCircleFill } from "react-icons/bs";
 
 const ScrollingText = () => {
+  // scrollingText-------------
   return (
     <div className="container mx-auto my-4">
       <div className="flex">
