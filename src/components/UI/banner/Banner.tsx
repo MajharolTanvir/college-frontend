@@ -9,7 +9,7 @@ import { FcBusinessman, FcDepartment } from "react-icons/fc";
 import { GiTeacher } from "react-icons/gi";
 const Banner = () => {
   return (
-    <div className="h-[430px] bg-base-200 lg:w-[80vw] mx-auto rounded">
+    <div className="lg:h-[430px] bg-base-200 lg:w-[80vw] mx-auto rounded">
       <div className=" p-5 grid lg:grid-cols-2 gap-10 grid-cols-1">
         <div className="">
           <div className="carousel w-full">
@@ -22,7 +22,7 @@ const Banner = () => {
                 alt="pic"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" className="btn btn-circle">
+                <a href="#slide1" className="btn btn-circle">
                   ❮
                 </a>
                 <a href="#slide2" className="btn btn-circle">
@@ -30,16 +30,16 @@ const Banner = () => {
                 </a>
               </div>
             </div>
-            <div id="slide1" className="carousel-item relative w-full h-96">
+            <div id="slide2" className="carousel-item relative w-full h-96">
               <Image
-                src="https://www.dcc.edu.bd/media/slide/13-03-2019-1552533939.jpg"
+                src="https://www.dcc.edu.bd/media/slide/13-03-2019-1552533993.jpg"
                 width={150}
                 height={5}
                 className="w-full rounded"
                 alt="pic"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" className="btn btn-circle">
+                <a href="#slide1" className="btn btn-circle">
                   ❮
                 </a>
                 <a href="#slide2" className="btn btn-circle">
@@ -51,9 +51,9 @@ const Banner = () => {
         </div>
 
         <div>
-          <div className=" grid  grid-cols-3  gap-5 mt-2 ">
+          <div className=" grid  grid-cols-3  lg:gap-5 gap-3 lg:mt-2 ">
             <div
-              className=" lg:w-48 w-24 h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60  h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div>
@@ -64,7 +64,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className="lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className="lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -75,7 +75,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -86,9 +86,9 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className=" grid  grid-cols-3  gap-5 mt-5">
+          <div className=" grid  grid-cols-3  lg:gap-5 gap-3 mt-5">
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -99,7 +99,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -110,7 +110,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -121,20 +121,22 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className=" grid  grid-cols-3 gap-5 mt-5">
+          <div className=" grid  grid-cols-3 lg:gap-5 gap-3 mt-5">
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
-            flex justify-center items-center "
+              className=" lg:w-full xl:w-full sm:w-[105px]   md:w-60  h-28 border rounded-lg bg-white
+            flex justify-center items-center  "
             >
               <div className=" ">
-                <span className=" text-2xl  flex justify-center mb-2 text-[#262582]">
+                <span className=" text-2xl  flex justify-center mb-2 text-[#262582] ">
                   <FcDepartment />
                 </span>
-                <h3 className=" uppercase">DEPARTMENT</h3>
+                <h3 className=" uppercase lg:text-[17px] text-[14px]">
+                  DEPARTMENT
+                </h3>
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -145,7 +147,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
