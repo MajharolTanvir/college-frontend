@@ -3,7 +3,7 @@ import React from "react";
 
 const Introduction = () => {
   return (
-    <section className="md:container md:mx-auto mt-14">
+    <section className="md:container md:mx-auto mb-20">
       <div className="lg:grid grid-cols-2 gap-10 mx-5 md:mx-0">
         <div className="w-full flex items-center">
           <Image

@@ -5,7 +5,7 @@ import { FaUniversity, FaUserGraduate, FaUserTie } from "react-icons/fa";
 
 const MiniCard = () => {
   return (
-    <div className="md:container md:mx-auto my-16 mx-5">
+    <div className="md:container md:mx-auto mx-5 mb-20">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:mx-5 lg:mx-0">
         <div className="bg-[#262582] py-4 md:py-8 text-white shadow-sm rounded-md">
           <div className="flex justify-center items-center gap-3 ">

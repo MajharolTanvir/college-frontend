@@ -70,45 +70,7 @@ const Banner = () => {
   };
   return (
     <div className="lg:h-[430px] bg-base-200 container mx-auto rounded">
-      <div className=" p-5 grid lg:grid-cols-2 gap-10 grid-cols-1">
-        {/* <div className="">
-          <div className="carousel w-full">
-            <div id="slide1" className="carousel-item relative w-full h-96">
-              <Image
-                src="https://www.dcc.edu.bd/media/slide/13-03-2019-1552533939.jpg"
-                width={150}
-                height={5}
-                className="w-full rounded-lg"
-                alt="pic"
-              />
-              <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" className="btn btn-circle">
-                  ❮
-                </a>
-                <a href="#slide1" className="btn btn-circle">
-                  ❯
-                </a>
-              </div>
-            </div>
-            <div id="slide2" className="carousel-item relative w-full h-96">
-              <Image
-                src="https://www.dcc.edu.bd/media/slide/13-03-2019-1552533993.jpg"
-                width={150}
-                height={5}
-                className="w-full rounded"
-                alt="pic"
-              />
-              <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <span id="#slide2" className="btn btn-circle">
-                  ❮
-                </span>
-                <a href="#slide1" className="btn btn-circle">
-                  ❯
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
+      <div className=" p-5 grid lg:grid-cols-2 gap-5 grid-cols-1">
         <div className="h-[300px] md:h-[500] lg:h-[380px] w-full m-auto px-4 relative group">
           <div
             style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
