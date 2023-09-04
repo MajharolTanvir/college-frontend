@@ -40,8 +40,8 @@ const Notice = () => {
     },
   ];
   return (
-    <div className="lg:w-[80vw] mx-auto lg:my-40 mt-[400px] px-2">
-      <div className=" mt-5">
+    <div className="lg:w-[80vw] mx-auto lg:my-20  lg:px-2 md:px-10  px-20">
+      <div className=" mt-5 ">
         <div className=" flex justify-center">
           <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[270px]">
             NEWS & NOTICE
@@ -49,13 +49,13 @@ const Notice = () => {
         </div>
       </div>
 
-      <div className=" grid lg:grid-cols-3 grid-cols-1 gap-10 mt-5">
-        <div className=" h-[65vh] border rounded">
-          <div className=" h-14 bg-[#262582] rounded flex justify-center items-center text-white uppercase font-medium">
+      <div className=" grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-10 mt-5">
+        <div className=" h-[65vh] border  rounded-t-2xl shadow-sm">
+          <div className=" h-14 bg-[#262582] rounded-t-2xl flex justify-center items-center text-white uppercase font-medium">
             <p>Academic Notice</p>
           </div>
 
-          <div className=" h-[50vh]  overflow-y-auto ">
+          <div className=" h-[50vh] border-b  overflow-y-auto ">
             {notices.map((notice, index) => (
               <div key={index} className=" flex h-18   gap-5 border p-2">
                 <div className=" h-16 w-32 rounded p-2  text-center  flex  justify-center items-center bg-green-700 text-white">
@@ -68,18 +68,18 @@ const Notice = () => {
             ))}
           </div>
 
-          <div className=" flex justify-center items-center h-16">
+          <div className=" flex justify-center items-center h-14">
             <button className=" bg-[#262582] text-white px-8 py-2 rounded">
               See More
             </button>
           </div>
         </div>
-        <div className=" h-[65vh] border rounded">
-          <div className=" h-14 bg-[#262582] rounded flex justify-center items-center text-white uppercase font-medium">
+        <div className=" h-[65vh] border rounded-t-2xl shadow-sm">
+          <div className=" h-14 bg-[#262582] rounded-t-2xl flex justify-center items-center text-white uppercase font-medium">
             <p>News</p>
           </div>
 
-          <div className=" h-[50vh]  overflow-y-auto ">
+          <div className=" h-[50vh]  overflow-y-auto border-b">
             {notices.map((notice, index) => (
               <div key={index} className=" flex h-18   gap-5 border p-2">
                 <div className=" h-16 w-32 rounded p-2  text-center  flex  justify-center items-center bg-green-700 text-white">
@@ -92,18 +92,18 @@ const Notice = () => {
             ))}
           </div>
 
-          <div className=" flex justify-center items-center h-16">
+          <div className=" flex justify-center items-center h-14">
             <button className=" bg-[#262582] text-white px-8 py-2 rounded">
               See More
             </button>
           </div>
         </div>
-        <div className=" h-[65vh] border rounded">
-          <div className=" h-14 bg-[#262582] rounded flex justify-center items-center text-white uppercase font-medium">
+        <div className=" h-[65vh] border rounded-t-2xl shadow">
+          <div className=" h-14 bg-[#262582] rounded-t-2xl flex justify-center items-center text-white uppercase font-medium">
             <p>General Notice</p>
           </div>
 
-          <div className=" h-[50vh]   overflow-y-auto scrollable-div">
+          <div className=" h-[50vh]  border-b  overflow-y-auto scrollable-div">
             {notices.map((notice, index) => (
               <div key={index} className=" flex h-18   gap-5 border p-2">
                 <div className=" h-16 w-32 rounded p-2  text-center  flex  justify-center items-center bg-green-700 text-white">
@@ -116,7 +116,7 @@ const Notice = () => {
             ))}
           </div>
 
-          <div className=" flex justify-center items-center h-16">
+          <div className=" flex justify-center items-center h-14">
             <button className=" bg-[#262582] text-white px-8 py-2 rounded">
               See More
             </button>

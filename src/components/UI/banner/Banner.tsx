@@ -51,9 +51,9 @@ const Banner = () => {
         </div>
 
         <div>
-          <div className=" grid  grid-cols-3  gap-5 mt-2 ">
+          <div className=" grid  grid-cols-3  lg:gap-5 gap-3 lg:mt-2 ">
             <div
-              className=" lg:w-48 w-24 h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60  h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div>
@@ -64,7 +64,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className="lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className="lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -75,7 +75,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -86,9 +86,9 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className=" grid  grid-cols-3  gap-5 mt-5">
+          <div className=" grid  grid-cols-3  lg:gap-5 gap-3 mt-5">
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -99,7 +99,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -110,7 +110,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -121,20 +121,22 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className=" grid  grid-cols-3 gap-5 mt-5">
+          <div className=" grid  grid-cols-3 lg:gap-5 gap-3 mt-5">
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
-            flex justify-center items-center "
+              className=" lg:w-full xl:w-full sm:w-[105px]   md:w-60  h-28 border rounded-lg bg-white
+            flex justify-center items-center  "
             >
               <div className=" ">
-                <span className=" text-2xl  flex justify-center mb-2 text-[#262582]">
+                <span className=" text-2xl  flex justify-center mb-2 text-[#262582] ">
                   <FcDepartment />
                 </span>
-                <h3 className=" uppercase">DEPARTMENT</h3>
+                <h3 className=" uppercase lg:text-[17px] text-[14px]">
+                  DEPARTMENT
+                </h3>
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">
@@ -145,7 +147,7 @@ const Banner = () => {
               </div>
             </div>
             <div
-              className=" lg:w-48 w-24  h-28 border rounded-lg bg-white
+              className=" lg:w-full xl:w-full sm:w-[105px] md:w-60   h-28 border rounded-lg bg-white
             flex justify-center items-center "
             >
               <div className=" ">

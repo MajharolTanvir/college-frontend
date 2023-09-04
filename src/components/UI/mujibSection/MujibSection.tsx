@@ -33,10 +33,10 @@ const MujibSection = () => {
 
         <div className=" lg:w-[20vw] ">
           <div className=" w-full p-2 border h-[230px] ">
-            <Image className="h-full" src={Image4} alt="mujib pic" />
+            <Image className="h-full w-full" src={Image4} alt="mujib pic" />
           </div>
           <div className=" w-full p-2 border h-[227px] mt-3">
-            <Image className="h-full" src={Image5} alt="mujib pic" />
+            <Image className="h-full w-full" src={Image5} alt="mujib pic" />
           </div>
         </div>
 
