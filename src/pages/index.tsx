@@ -4,6 +4,7 @@ import Porichithi from "@/components/UI/Porichithi";
 import ScrollingText from "@/components/UI/Scrolling/ScrollingText";
 import Banner from "@/components/UI/banner/Banner";
 import Contact from "@/components/UI/contact/Contact";
+import Events from "@/components/UI/events/Events";
 import Notice from "@/components/UI/notice/Notice";
 import { ReactElement } from "react";
 
@@ -16,6 +17,9 @@ const Home = () => {
       <MiniCard />
       <Porichithi />
       <Notice />
+
+      <Events />
+
       <Contact />
     </div>
   );
