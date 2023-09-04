@@ -9,6 +9,8 @@ import Introduction from "@/components/UI/introduction/Introduction";
 import MessageCard from "@/components/UI/messageCard/MessageCard";
 import Notice from "@/components/UI/notice/Notice";
 import { ReactElement } from "react";
+import CollageContact from "@/components/UI/CollageContact/collageContact";
+import CollegeName from "@/components/UI/collegeName/collegeName";
 
 
 const Home = () => {
@@ -39,5 +41,12 @@ const Home = () => {
 export default Home;
 
 Home.getLayout = function getLayout(page: ReactElement) {
-  return <RootLayouts>{page}</RootLayouts>;
+  return (
+    <>
+      <CollageContact />
+      <CollegeName />
+      <RootLayouts>{page}</RootLayouts>
+    </>
+  );
+  
 };
