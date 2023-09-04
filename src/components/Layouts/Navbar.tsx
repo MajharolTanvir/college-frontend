@@ -4,7 +4,7 @@ import { BiSolidUser } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <div className="shadow bg-[#262582] text-white">
+    <div className="shadow bg-[#262582] text-white py-3">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -89,7 +89,7 @@ const Navbar = () => {
             <Image
               src="/rangamati_public_collage.jpg"
               alt="Rangamati public collage logo"
-              className="object-cover bg-transparent"
+              className="w-12 md:w-16"
               height={60}
               width={60}
             />
