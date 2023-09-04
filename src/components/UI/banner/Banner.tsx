@@ -51,7 +51,7 @@ const Banner = () => {
         </div>
 
         <div>
-          <div className=" grid  grid-cols-3  lg:gap-5 gap-3 lg:mt-2 ">
+          <div className=" grid  grid-cols-3  lg:gap-5 gap-3 lg:mt-">
             <div
               className=" lg:w-full xl:w-full sm:w-[105px] md:w-60  h-28 border rounded-lg bg-white
             flex justify-center items-center "
