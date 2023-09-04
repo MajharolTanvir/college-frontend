@@ -20,7 +20,7 @@ const Contact = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div className="flex flex-col gap-5 my-10 md:my-0 md:z-20 md:-m-20 lg:-m-24 mx-5 md:w-[350px] lg:w-[740px]">
+          <div className="flex flex-col gap-5 my-10 md:my-0 md:z-20 md:-m-20 lg:-m-24 mx-5 md:w-[350px] lg:w-[740px] ">
             <div className="flex items-center gap-5 p-5 lg:pl-12 glass rounded-md">
               <BsFillBuildingsFill className="text-7xl md:text-4xl md:mr-6" />
               <div>
