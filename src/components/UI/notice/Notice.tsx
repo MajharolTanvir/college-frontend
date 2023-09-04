@@ -42,7 +42,11 @@ const Notice = () => {
   return (
     <div className="lg:w-[80vw] mx-auto lg:my-40 mt-[400px] px-2">
       <div className=" mt-5">
-        <h1 className="text-center text-2xl">NEWS & NOTICE </h1>
+        <div className=" flex justify-center">
+          <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[270px]">
+            NEWS & NOTICE
+          </h3>
+        </div>
       </div>
 
       <div className=" grid lg:grid-cols-3 grid-cols-1 gap-10 mt-5">
