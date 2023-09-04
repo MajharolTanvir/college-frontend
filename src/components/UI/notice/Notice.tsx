@@ -41,11 +41,11 @@ const Notice = () => {
     },
   ];
   return (
-    <div className="lg:w-[80vw] mx-auto lg:my-20  lg:px-2 md:px-10  px-20">
+    <div className="container mx-auto lg:my-20  lg:px-2 md:px-10 px-5">
       <div className=" mt-5 ">
         <div className=" flex justify-center">
-          <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[270px]">
-            NEWS & NOTICE
+          <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[100px]">
+            বিজ্ঞপ্তি
           </h3>
         </div>
       </div>

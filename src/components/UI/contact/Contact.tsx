@@ -6,8 +6,8 @@ const Contact = () => {
     <div className="">
       <div className="container mx-auto py-10">
         <div className="flex item-center justify-center">
-          <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[230px]">
-            Contact with Us
+          <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[220px]">
+            যোগাযোগ করুন
           </h3>
         </div>
         <div className="md:flex justify-center items-center">
@@ -24,17 +24,15 @@ const Contact = () => {
             <div className="flex items-center gap-5 p-5 lg:pl-12 glass rounded-md">
               <BsFillBuildingsFill className="text-7xl md:text-4xl md:mr-6" />
               <div>
-                <h5 className="text-xl font-bold">Office address</h5>
-                <p>
-                  Narikel bagan, Asambosti road, Tabalchari bazar, Rangamati
-                </p>
+                <h5 className="text-xl font-bold">অফিসের ঠিকানা</h5>
+                <p>নারিকেল বাগান, আসামবস্তি রাস্তা, তবলছড়ি বাজার, রাঙ্গামাটি</p>
               </div>
             </div>
 
             <div className="flex  items-center gap-5 p-5  lg:pl-12 glass rounded-md">
               <MdEmail className="text-5xl md:text-4xl md:mr-6" />
               <div>
-                <h5 className="text-xl font-bold">Email</h5>
+                <h5 className="text-xl font-bold">ইমেইল এড্রেস</h5>
                 <p>publiccollege@gmail.com</p>
               </div>
             </div>
@@ -42,8 +40,8 @@ const Contact = () => {
             <div className="flex items-center gap-5 p-5 lg:pl-12 glass rounded-md">
               <MdPhoneInTalk className="text-5xl md:text-4xl md:mr-6" />
               <div>
-                <h5 className="text-xl font-bold">Number</h5>
-                <p>017++++++</p>
+                <h5 className="text-xl font-bold">ফোন নাম্বার</h5>
+                <p>০১৮৪+++++++</p>
               </div>
             </div>
           </div>

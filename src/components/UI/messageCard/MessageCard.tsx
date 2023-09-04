@@ -6,7 +6,7 @@ import { AiOutlineCaretRight } from "react-icons/ai";
 const MessageCard = () => {
   return (
     <section className="container mx-auto flex justify-evenly mt-10">
-      <div className="lg:flex mx-5 gap-10">
+      <div className="lg:flex mx-5 md:mx-0 gap-10">
         <div className="glass p-5 rounded-md mb-5">
           <div className="md:flex gap-5">
             <Image

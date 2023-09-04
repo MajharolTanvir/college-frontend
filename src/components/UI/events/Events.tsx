@@ -63,7 +63,7 @@ const Events = () => {
     <div className="container mx-auto">
       <div className="flex item-center justify-center">
         <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[210px]">
-          Latest events
+          সর্বশেষ অনুষ্ঠান
         </h3>
       </div>
       <div className="h-[300px] md:h-[500] lg:h-[680px] w-full m-auto px-4 relative group">
