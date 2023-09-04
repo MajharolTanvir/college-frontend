@@ -4,12 +4,12 @@ import React from "react";
 const Introduction = () => {
   return (
     <section className="container mx-auto mt-14">
-      <div className="grid grid-cols-2">
+      <div className="lg:grid grid-cols-2 gap-10">
         <div className="w-full flex items-center">
           <Image
-            className=" border-[#262582] border-4"
+            className=" border-[#262582] border-4 w-full"
             src="/college-pic.jpg"
-            width={580}
+            width={400}
             height={450}
             alt="hall"
           ></Image>
@@ -18,7 +18,7 @@ const Introduction = () => {
           <h3 className="text-3xl font-bold mb-3">কলেজ পরিচিতি</h3>
           <hr />
           <p className="text-justify mt-3">
-            আমরা স্বাগত জানাই আপনাকে <b>রাঙ্গামাটি সরকারি কলেজের</b> দুনিয়ায়
+            আমরা স্বাগত জানাই আপনাকে <b>রাঙ্গামাটি পাবলিক কলেজের</b> দুনিয়ায়
             একটি নতুন অধ্যায়ে। বেঙ্গলুরু বিশ্ববিদ্যালয় একটি শ্রেষ্ঠ শিক্ষা
             প্রতিষ্ঠান, যেখানে আপনি একটি উন্নত শিক্ষা অভিজ্ঞতা অর্জন করতে পারেন।
             আমরা গুরুত্ব দিচ্ছি ছাত্র-ছাত্রীদের প্রত্যেকটি দিকে উন্নত পঠন ও
