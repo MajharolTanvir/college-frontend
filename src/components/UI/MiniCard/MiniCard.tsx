@@ -11,9 +11,9 @@ const MiniCard = () => {
           <div className="flex justify-center items-center gap-3 ">
             <FaUniversity className="text-4xl md:text-6xl" />
             <div className="text-lg md:text-xl">
-              <h3 className="font-bold">Founded</h3>
+              <h3 className="font-bold">প্রতিষ্ঠিত</h3>
               <div>
-                <p>17 July 2014</p>
+                <p>১৭ জুলাই ২০১৪</p>
               </div>
             </div>
           </div>
@@ -22,9 +22,9 @@ const MiniCard = () => {
           <div className="flex justify-center items-center gap-3 ">
             <FaUserTie className="text-4xl md:text-6xl" />
             <div className="text-xl">
-              <h3 className="font-bold">Faculty</h3>
+              <h3 className="font-bold">অনুষদ</h3>
               <div className="flex items-center">
-                <p>30</p>
+                <p>৩০</p>
                 <BsPlusLg />
               </div>
             </div>
@@ -34,9 +34,9 @@ const MiniCard = () => {
           <div className="flex justify-center items-center gap-3 ">
             <FaBookOpen className="text-4xl md:text-6xl" />
             <div className="text-xl">
-              <h3 className="font-bold">Department</h3>
+              <h3 className="font-bold">বিভাগ</h3>
               <div className="flex items-center">
-                <p>30</p>
+                <p>৩০</p>
                 <BsPlusLg />
               </div>
             </div>
@@ -46,7 +46,7 @@ const MiniCard = () => {
           <div className="flex justify-center items-center gap-3 ">
             <FaUserGraduate className="text-4xl md:text-6xl" />
             <div className="text-xl">
-              <h3 className="font-bold">Students</h3>
+              <h3 className="font-bold">শিক্ষার্থী</h3>
               <div className="flex items-center">
                 <p>1000</p>
                 <BsPlusLg />

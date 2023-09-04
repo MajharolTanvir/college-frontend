@@ -10,8 +10,8 @@ const MujibSection = () => {
   return (
     <div className=" my-20 px-8">
       <div className=" flex justify-center">
-        <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[230px]">
-          Photo Archive
+        <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[160px]">
+          মুজিব কর্নার
         </h3>
       </div>
 

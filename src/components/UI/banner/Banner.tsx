@@ -9,7 +9,7 @@ import { FcBusinessman, FcDepartment } from "react-icons/fc";
 import { GiTeacher } from "react-icons/gi";
 const Banner = () => {
   return (
-    <div className="lg:h-[430px] bg-base-200 lg:w-[80vw] mx-auto rounded">
+    <div className="lg:h-[430px] bg-base-200 container mx-auto rounded">
       <div className=" p-5 grid lg:grid-cols-2 gap-10 grid-cols-1">
         <div className="">
           <div className="carousel w-full">
