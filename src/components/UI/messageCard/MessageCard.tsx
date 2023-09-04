@@ -17,15 +17,13 @@ const MessageCard = () => {
               height={300}
             />
             <div>
-              <h4 className="text-2xl font-bold mt-10">Title</h4>
-              <p className="my-5 text-justify">
+              <h4 className="text-2xl font-bold">Title</h4>
+              <p className="my-2 text-justify">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
                 asperiores non molestiae maiores nesciunt, tenetur architecto,
-                aperiam quas, facere voluptate quo culpa fuga modi error iusto.
-                Distinctio, nesciunt minima recusandae dolor perspiciatis natus
-                doloremque. Assumenda, inventore eius sequi dignissimos dicta
-                quia consectetur! Quisquam excepturi ipsa consectetur alias
-                facilis voluptatum doloribus.
+                aperiam quasfacere voluptate quo culpa fuga modi error iusto.
+                Distinctio recusandae dolor perspiciatis natus doloremque.
+                inventore eius sequi dignissimos dicta quia consectetur!.
               </p>
               <Link href="/" className="font-medium flex items-center">
                 Read more <AiOutlineCaretRight />
@@ -44,15 +42,14 @@ const MessageCard = () => {
                 height={300}
               />
               <div>
-                <h4 className="text-2xl font-bold mt-10">Title</h4>
-                <p className="my-5 text-justify">
+                <h4 className="text-2xl font-bold">Title</h4>
+                <p className="my-2 text-justify">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus asperiores non molestiae maiores nesciunt, tenetur
-                  architecto, aperiam quas, facere voluptate quo culpa fuga modi
-                  error iusto. Distinctio, nesciunt minima recusandae dolor
-                  perspiciatis natus doloremque. Assumenda, inventore eius sequi
-                  dignissimos dicta quia consectetur! Quisquam excepturi ipsa
-                  consectetur alias facilis voluptatum doloribus.
+                  architecto, aperiam quasfacere voluptate quo culpa fuga modi
+                  error iusto. Distinctio recusandae dolor perspiciatis natus
+                  doloremque. inventore eius sequi dignissimos dicta quia
+                  consectetur!.
                 </p>
                 <Link href="/" className="font-medium flex items-center">
                   Read more <AiOutlineCaretRight />
