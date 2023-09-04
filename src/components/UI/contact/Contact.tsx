@@ -3,9 +3,13 @@ import { BsFillBuildingsFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="bg-green-100">
-          <div className="container mx-auto py-10">
-              <h3 className="text-3xl font-bold text-center my-10">Contact with Us</h3>
+    <div className="">
+      <div className="container mx-auto py-10">
+        <div className="flex item-center justify-center">
+          <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[230px]">
+            Contact with Us
+          </h3>
+        </div>
         <div className="flex justify-center items-center">
           <div>
             <iframe
@@ -18,7 +22,7 @@ const Contact = () => {
             ></iframe>
           </div>
           <div className="flex flex-col gap-5 z-20 -m-24">
-            <div className="flex items-center gap-5 p-5 pl-12 bg-white rounded-md">
+            <div className="flex items-center gap-5 p-5 pl-12 glass rounded-md">
               <BsFillBuildingsFill className="text-4xl mr-6" />
               <div>
                 <h5 className="text-xl font-bold">Office address</h5>
@@ -28,7 +32,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="flex  items-center gap-5 p-5  pl-12 bg-white rounded-md">
+            <div className="flex  items-center gap-5 p-5  pl-12 glass rounded-md">
               <MdEmail className="text-4xl  mr-6" />
               <div>
                 <h5 className="text-xl font-bold">Email</h5>
@@ -36,7 +40,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-5 p-5 pl-12 bg-white rounded-md">
+            <div className="flex items-center gap-5 p-5 pl-12 glass rounded-md">
               <MdPhoneInTalk className="text-4xl  mr-6" />
               <div>
                 <h5 className="text-xl font-bold">Number</h5>
