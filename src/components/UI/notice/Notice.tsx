@@ -1,6 +1,7 @@
 import React from "react";
 
 const Notice = () => {
+  // notice array
   const notices = [
     {
       date: "12 jun 2023",
