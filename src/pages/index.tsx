@@ -1,10 +1,11 @@
 import RootLayouts from "@/components/Layouts/RootLayouts";
 import MiniCard from "@/components/UI/MiniCard/MiniCard";
-import Porichithi from "@/components/UI/Porichithi";
 import ScrollingText from "@/components/UI/Scrolling/ScrollingText";
 import Banner from "@/components/UI/banner/Banner";
 import Contact from "@/components/UI/contact/Contact";
 import Events from "@/components/UI/events/Events";
+import Introduction from "@/components/UI/introduction/Introduction";
+import MessageCard from "@/components/UI/messageCard/MessageCard";
 import Notice from "@/components/UI/notice/Notice";
 import { ReactElement } from "react";
 
@@ -13,9 +14,11 @@ const Home = () => {
     <div>
       <Banner />
       <ScrollingText />
-
       <MiniCard />
-      <Porichithi />
+
+      <Introduction />
+      <MessageCard />
+
       <Notice />
 
       <Events />
