@@ -63,19 +63,19 @@ const Events = () => {
     <div className="container mx-auto">
       <div className="flex item-center justify-center">
         <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[210px]">
-          Latest events
+          সর্বশেষ অনুষ্ঠান
         </h3>
       </div>
-      <div className="h-[300px] md:h-[680px] w-full m-auto px-4 relative group">
+      <div className="h-[300px] md:h-[500] lg:h-[680px] w-full m-auto px-4 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
         >
-          <div className="hidden md:flex flex-col justify-center h-full items-start w-96 glass p-10">
-            <h1 className="text-3xl text-white">
+          <div className="hidden md:flex flex-col justify-center h-full items-start w-96 glass md:p-5 lg:p-10">
+            <h1 className="text-xl lg:text-3xl text-white">
               {slides[currentIndex].title}
             </h1>
-            <p className="text-white text-justify py-10">
+            <p className="text-white text-[12px] lg:text-[18px] text-justify py-5 lg:py-10">
               {slides[currentIndex].description}
             </p>
             <button className="glass px-5 py-1 text-white font-medium">
@@ -96,7 +96,7 @@ const Events = () => {
               onClick={() => goToSlide(slideIndex)}
               className="cursor-pointer"
             >
-              <div className="h-[2px] rounded-md bg-green-600 w-10 md:w-20 lg:w-40" />
+              <div className="h-[2px] rounded-md bg-green-600 w-8 md:w-24 lg:w-36" />
             </div>
           ))}
         </div>
