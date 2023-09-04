@@ -1,59 +1,63 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { AiOutlineCaretRight } from "react-icons/ai";
 
 const MessageCard = () => {
   return (
     <section className="container mx-auto flex justify-evenly mt-10">
-      <div className="lg:flex gap-5 md:mx-0">
-        <div className="card md:card-side bg-base-100 shadow-xl mb-5 mx-5">
-          <figure>
+      <div className="lg:flex mx-5 gap-10">
+        <div className="glass p-5 rounded-md mb-5">
+          <div className="md:flex gap-5">
             <Image
-              className="w-96 h-full"
-              width={500}
-              height={520}
+              alt=""
+              className="h-full"
               src="/principal.jpg"
-              alt="Album"
+              width={300}
+              height={300}
             />
-          </figure>
-          <div className="card-body w-96">
-            <h2 className="card-title">Title</h2>
-            <p className="text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-              harum officiis. Minima architecto modi iste cumque, sed, explicabo
-              dolorum fugit dicta illum nobis quisquam, quibusdam perferendis
-              blanditiis neque et eaque non eius excepturi eos odio corrupti
-              esse. Enim consequuntur dolore harum iure officia et, sunt,
-              quibusdam praesentium numquam unde repudiandae!
-            </p>
-            <div className="card-actions justify-start">
-              <Link href="">Read more</Link>
+            <div>
+              <h4 className="text-2xl font-bold mt-10">Title</h4>
+              <p className="my-5 text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                asperiores non molestiae maiores nesciunt, tenetur architecto,
+                aperiam quas, facere voluptate quo culpa fuga modi error iusto.
+                Distinctio, nesciunt minima recusandae dolor perspiciatis natus
+                doloremque. Assumenda, inventore eius sequi dignissimos dicta
+                quia consectetur! Quisquam excepturi ipsa consectetur alias
+                facilis voluptatum doloribus.
+              </p>
+              <Link href="/" className="font-medium flex items-center">
+                Read more <AiOutlineCaretRight />
+              </Link>
             </div>
           </div>
         </div>
-        <div className="card md:card-side bg-base-100 shadow-xl mb-5 mx-5">
-          <figure>
-            <Image
-              className="w-96 h-full"
-              width={500}
-              height={520}
-              src="/vice-principal.jpg"
-              alt="Album"
-            />
-          </figure>
-          <div className="card-body w-96">
-            <h2 className="card-title">Title</h2>
-            <p className="text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-              ducimus corrupti nam itaque saepe officia magni quae ut,
-              aspernatur quibusdam asperiores incidunt commodi laudantium,
-              quidem delectus nisi at vel reprehenderit cum distinctio nemo
-              repudiandae beatae? Eligendi et fugiat impedit fuga magnam
-              delectus, ea autem, temporibus, nobis officiis aspernatur dicta
-              omnis.
-            </p>
-            <div className="card-actions justify-start">
-              <Link href="">Read more</Link>
+        <div>
+          <div className="glass p-5 rounded-md mb-5">
+            <div className="md:flex gap-5">
+              <Image
+                className="h-full"
+                alt=""
+                src="/vice-principal.jpg"
+                width={300}
+                height={300}
+              />
+              <div>
+                <h4 className="text-2xl font-bold mt-10">Title</h4>
+                <p className="my-5 text-justify">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Minus asperiores non molestiae maiores nesciunt, tenetur
+                  architecto, aperiam quas, facere voluptate quo culpa fuga modi
+                  error iusto. Distinctio, nesciunt minima recusandae dolor
+                  perspiciatis natus doloremque. Assumenda, inventore eius sequi
+                  dignissimos dicta quia consectetur! Quisquam excepturi ipsa
+                  consectetur alias facilis voluptatum doloribus.
+                </p>
+                <Link href="/" className="font-medium flex items-center">
+                  Read more <AiOutlineCaretRight />
+                </Link>
+              </div>
             </div>
           </div>
         </div>

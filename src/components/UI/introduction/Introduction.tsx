@@ -3,8 +3,8 @@ import React from "react";
 
 const Introduction = () => {
   return (
-    <section className="container mx-auto mt-14">
-      <div className="lg:grid grid-cols-2 gap-10">
+    <section className="md:container md:mx-auto mt-14">
+      <div className="lg:grid grid-cols-2 gap-10 mx-5 md:mx-0">
         <div className="w-full flex items-center">
           <Image
             className=" border-[#262582] border-4 w-full"
@@ -15,7 +15,7 @@ const Introduction = () => {
           ></Image>
         </div>
         <div className="w-full">
-          <h3 className="text-3xl font-bold mb-3">কলেজ পরিচিতি</h3>
+          <h3 className="text-3xl font-bold mb-3 mt-5">কলেজ পরিচিতি</h3>
           <hr />
           <p className="text-justify mt-3">
             আমরা স্বাগত জানাই আপনাকে <b>রাঙ্গামাটি পাবলিক কলেজের</b> দুনিয়ায়
