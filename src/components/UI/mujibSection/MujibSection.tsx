@@ -8,7 +8,7 @@ import Image5 from "../../../../public/picture/img-1.jpg";
 import Image6 from "../../../../public/picture/7.png";
 const MujibSection = () => {
   return (
-    <div className=" my-20 px-8 lg:px-0">
+    <div className=" my-20 px-4 lg:px-0">
       <div className=" flex justify-center">
         <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[230px]">
           Photo Archive
