@@ -3,10 +3,10 @@ import { BsFillBuildingsFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="">
-      <div className="container mx-auto py-10">
-        <div className="flex item-center justify-center">
-          <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[220px]">
+    <div className="mb-20">
+      <div className="container mx-auto">
+        <div className="flex item-center justify-center mb-10">
+          <h3 className="text-3xl font-bold text-[#262582] text-center border-b-2 border-green-600 w-[220px]">
             যোগাযোগ করুন
           </h3>
         </div>

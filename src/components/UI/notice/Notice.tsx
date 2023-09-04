@@ -45,16 +45,16 @@ const Notice = () => {
     },
   ];
   return (
-    <div className="container mx-auto lg:my-20  lg:px-2 md:px-10 px-5">
-      <div className=" mt-5 ">
+    <div className="container mx-auto lg:my-20 lg:px-2 md:px-10 px-5 mb-20">
+      <div className="mb-10">
         <div className=" flex justify-center">
-          <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[100px]">
+          <h3 className="text-3xl font-bold text-[#262582] text-center border-b-2 border-green-600 w-[100px]">
             বিজ্ঞপ্তি
           </h3>
         </div>
       </div>
 
-      <div className=" grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-10 mt-5">
+      <div className=" grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-10">
         <div className=" h-[65vh] border  rounded-t-2xl shadow-sm">
           <div className=" h-14 bg-[#262582] rounded-t-2xl flex justify-center items-center text-white uppercase font-medium">
             <p>Academic Notice</p>

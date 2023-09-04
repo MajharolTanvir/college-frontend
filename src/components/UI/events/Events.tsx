@@ -60,9 +60,9 @@ const Events = () => {
   };
 
   return (
-    <div className="container mx-auto">
-      <div className="flex item-center justify-center">
-        <h3 className="text-3xl font-bold text-[#262582] text-center my-10 border-b-2 border-green-600 w-[210px]">
+    <div className="container mx-auto mb-20">
+      <div className="flex item-center justify-center mb-10">
+        <h3 className="text-3xl font-bold text-[#262582] text-center border-b-2 border-green-600 w-[210px]">
           সর্বশেষ অনুষ্ঠান
         </h3>
       </div>

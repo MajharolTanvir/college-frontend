@@ -5,19 +5,19 @@ import { AiOutlineCaretRight } from "react-icons/ai";
 
 const MessageCard = () => {
   return (
-    <section className="container mx-auto flex justify-evenly mt-10">
-      <div className="lg:flex mx-5 md:mx-0 gap-10">
+    <section className="container mx-auto flex justify-evenly mb-20">
+      <div className="xl:flex mx-5 md:mx-0 gap-10">
         <div className="glass p-5 rounded-md mb-5">
           <div className="md:flex gap-5">
             <Image
               alt=""
-              className="h-full"
+              className="w-60 h-60"
               src="/principal.jpg"
               width={300}
               height={300}
             />
             <div>
-              <h4 className="text-2xl font-bold">Title</h4>
+              <h4 className="text-2xl font-bold mt-5">Title</h4>
               <p className="my-2 text-justify">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
                 asperiores non molestiae maiores nesciunt, tenetur architecto,
@@ -35,14 +35,14 @@ const MessageCard = () => {
           <div className="glass p-5 rounded-md mb-5">
             <div className="md:flex gap-5">
               <Image
-                className="h-full"
+                className="w-60 h-60"
                 alt=""
                 src="/vice-principal.jpg"
                 width={300}
                 height={300}
               />
               <div>
-                <h4 className="text-2xl font-bold">Title</h4>
+                <h4 className="text-2xl font-bold mt-5">Title</h4>
                 <p className="my-2 text-justify">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus asperiores non molestiae maiores nesciunt, tenetur
