@@ -66,12 +66,12 @@ const Events = () => {
           Latest events
         </h3>
       </div>
-      <div className="h-[780px] w-full m-auto p-16 px-4 relative group">
+      <div className="h-[300px] md:h-[680px] w-full m-auto px-4 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
         >
-          <div className="flex flex-col justify-center h-full items-start w-96 glass p-10">
+          <div className="hidden md:flex flex-col justify-center h-full items-start w-96 glass p-10">
             <h1 className="text-3xl text-white">
               {slides[currentIndex].title}
             </h1>
@@ -89,14 +89,14 @@ const Events = () => {
         <div className="hidden group-hover:block absolute top-[50%] -translate-x-[-50%] right-14 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
-        <div className="flex top-4 justify-center py-2">
+        <div className="flex top-10 justify-center py-2 gap-3">
           {slides.map((slide, slideIndex) => (
             <div
               key={slideIndex}
               onClick={() => goToSlide(slideIndex)}
-              className="text-2xl cursor-pointer"
+              className="cursor-pointer"
             >
-              <RxDotFilled />
+              <div className="h-[2px] rounded-md bg-green-600 w-10 md:w-20 lg:w-40" />
             </div>
           ))}
         </div>

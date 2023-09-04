@@ -10,20 +10,19 @@ const Contact = () => {
             Contact with Us
           </h3>
         </div>
-        <div className="flex justify-center items-center">
-          <div>
+        <div className="md:flex justify-center items-center">
+          <div className="mx-4 md:mx-0">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d600.5457736321912!2d92.1782626!3d22.6393009!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1693771506074!5m2!1sen!2sbd"
-              width="700"
-              height="400"
+              className="w-full md:w-[400px] md:h-[400px] lg:w-[700px] lg:h-[400px]"
               style={{ border: "0" }}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div className="flex flex-col gap-5 z-20 -m-24">
-            <div className="flex items-center gap-5 p-5 pl-12 glass rounded-md">
-              <BsFillBuildingsFill className="text-4xl mr-6" />
+          <div className="flex flex-col gap-5 my-10 md:my-0 md:z-20 md:-m-20 lg:-m-24 mx-5 md:w-[350px] lg:w-[740px]">
+            <div className="flex items-center gap-5 p-5 lg:pl-12 glass rounded-md">
+              <BsFillBuildingsFill className="text-7xl md:text-4xl md:mr-6" />
               <div>
                 <h5 className="text-xl font-bold">Office address</h5>
                 <p>
@@ -32,16 +31,16 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="flex  items-center gap-5 p-5  pl-12 glass rounded-md">
-              <MdEmail className="text-4xl  mr-6" />
+            <div className="flex  items-center gap-5 p-5  lg:pl-12 glass rounded-md">
+              <MdEmail className="text-5xl md:text-4xl md:mr-6" />
               <div>
                 <h5 className="text-xl font-bold">Email</h5>
-                <p>rangamatipubliccollege@gmail.com</p>
+                <p>publiccollege@gmail.com</p>
               </div>
             </div>
 
-            <div className="flex items-center gap-5 p-5 pl-12 glass rounded-md">
-              <MdPhoneInTalk className="text-4xl  mr-6" />
+            <div className="flex items-center gap-5 p-5 lg:pl-12 glass rounded-md">
+              <MdPhoneInTalk className="text-5xl md:text-4xl md:mr-6" />
               <div>
                 <h5 className="text-xl font-bold">Number</h5>
                 <p>017++++++</p>

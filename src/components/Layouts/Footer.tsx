@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="bg-[#262582] text-white ">
       <div className="container mx-auto">
-        <div className="grid grid-cols-4 justify-center items-center py-10 px-5 border-b gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center py-10 px-5 border-b gap-5">
           <div className="flex flex-col justify-center items-center">
             <Image
               src="/rangamati_public_collage.jpg"
@@ -40,19 +40,22 @@ const Footer = () => {
             <h3 className="text-2xl font-medium border-b w-48 mb-3">
               Important links
             </h3>
-            <Link href="http://www.educationboardresults.gov.bd/">
+            <Link
+              target="_blank"
+              href="http://www.educationboardresults.gov.bd/"
+            >
               <p className="p-1">Education board result</p>
             </Link>
-            <Link href="https://moedu.gov.bd/">
+            <Link target="_blank" href="https://moedu.gov.bd/">
               <p className="p-1">Ministry of Education</p>
             </Link>
-            <Link href="https://dshe.gov.bd/">
+            <Link target="_blank" href="https://dshe.gov.bd/">
               <p className="p-1">DG website</p>
             </Link>
-            <Link href="https://banbeis.gov.bd/">
+            <Link target="_blank" href="https://banbeis.gov.bd/">
               <p className="p-1">Banbeis</p>
             </Link>
-            <Link href="http://www.naem.gov.bd/">
+            <Link target="_blank" href="http://www.naem.gov.bd/">
               <p className="p-1">National education management academy</p>
             </Link>
           </div>
@@ -61,24 +64,28 @@ const Footer = () => {
               Important links
             </h3>
 
-            <Link href="https://www.nu.ac.bd/">
+            <Link target="_blank" href="https://www.nu.ac.bd/">
               <p className="p-1">National university</p>
             </Link>
-            <Link href="https://teachers.gov.bd/">
+            <Link target="_blank" href="https://teachers.gov.bd/">
               <p className="p-1">Teacher Batayan</p>
             </Link>
-            <Link href="https://ugc.gov.bd/en">
+            <Link target="_blank" href="https://ugc.gov.bd/en">
               <p className="p-1">Bangladesh University Grants Commission</p>
             </Link>
 
-            <Link href="https://www.facebook.com/webshilpo/">
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/company/webshilpoo/"
+            >
               <p className="font-medium p-1">Developed by WebShilpo</p>
             </Link>
           </div>
         </div>
         <div className="py-4">
           <p className="text-center">
-            All rights reserved - © Copyright {year} | Rangamati Public College
+            All rights reserved - © Copyright {year} |{" "}
+            <span className="font-medium">Rangamati Public College</span>
           </p>
         </div>
       </div>
